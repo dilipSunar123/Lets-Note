@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoteInfoActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_info_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/desc_info_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="desc"
+        android:textSize="26sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/time_info_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:fontFamily="@font/robotomono_regular"/>
+
+    <EditText
+        android:id="@+id/update_title_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/update_desc_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:padding="10dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif"/>
+
+</LinearLayout>
